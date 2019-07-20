@@ -21,7 +21,7 @@
 
     <div class="container" style="margin-bottom: 50px">
 
-        <button class="btn btn-secondary" style="display: block; float: right; margin-bottom: 15px">Back to Home</button>
+        <a href="<%= request.getContextPath() %>"><button class="btn btn-secondary" style="display: block; float: right; margin-bottom: 15px">Back to Home</button></a>
 
         <div class="card w-100" style="margin-bottom: 20px">
             <div class="card-header">Room #1</div>
