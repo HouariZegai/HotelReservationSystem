@@ -9,9 +9,14 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
+    <%
+        String checkInDate = request.getAttribute("checkInDate").toString();
+        String checkOutDate = request.getAttribute("checkOutDate").toString();
+    %>
+
     <div class="header">
         <h1>Available Rooms</h1>
-        <p>from <span>00-00-0000</span> to <span>00-00-0000</span></p>
+        <p>from <span>${checkInDate}</span> to <span>${checkOutDate}</span></p>
     </div>
 
     <div class="container" style="margin-bottom: 50px">
