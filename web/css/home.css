@@ -1,0 +1,40 @@
+.bg-img {
+    /* The image used */
+    background-image: url("../images/banner-slider-1.jpg");
+
+    /* Control the height of the image */
+    min-height: 570px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-container {
+    padding: 50px 0 0 200px;
+    ligne-spacing: 10px
+}
+
+.header-container > h1 {
+    color: #FFF;
+}
+
+.header-container > p {
+    padding-top: 15px;
+    margin: 10px;
+    font-size: 18px;
+    color: #DDD
+}
+
+.check-date-form-container {
+    padding: 150px 0 0 300px;
+}
+
+.check-lbl {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0 10px 0 0;
+}
