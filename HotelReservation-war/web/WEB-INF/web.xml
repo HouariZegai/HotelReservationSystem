@@ -16,4 +16,22 @@
         <servlet-name>Home</servlet-name>
         <url-pattern>/Home</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FinalReservation</servlet-name>
+        <servlet-class>servlets.FinalReservation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FinalReservation</servlet-name>
+        <url-pattern>/FinalReservation</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AvailableRooms</servlet-name>
+        <servlet-class>servlets.AvailableRooms</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AvailableRooms</servlet-name>
+        <url-pattern>/AvailableRooms</url-pattern>
+    </servlet-mapping>
 </web-app>
