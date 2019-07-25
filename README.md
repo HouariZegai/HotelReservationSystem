@@ -8,22 +8,6 @@ A web application to book a room in a hotel, a customer must check the applicati
 * Responsive design
 * Online hotel reservation
 
-### Used Languages
-* Java
-* HTML
-* CSS
-* JavaScript
-
-### Used Technologies & Frameworks
-* JavaEE (JSP, Servlet, EJB)
-* Bootstrap
-
-## Used Database
-* MySQL
-
-### Used server
-* GlassFish 5.0
-
 ### Screenshoot
 Home           |
 :--------------:|
@@ -37,6 +21,22 @@ Available rooms    |
 Reservation       |
 :----------------:|
 ![reservation - screenshoot](screenshots/finalReservation.PNG) |
+
+### Used Languages
+* Java
+* HTML
+* CSS
+* JavaScript
+
+### Used Technologies & Frameworks
+* JavaEE (JSP, Servlet, EJB)
+* Bootstrap
+
+### Used Database
+* MySQL
+
+### Used server
+* GlassFish 5.0
 
 ### Installation 🔌
 1. Press the **Fork** button (top right the page) to save copy of this project on your account.
