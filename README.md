@@ -8,6 +8,9 @@ A web application to book a room in a hotel, a customer must check the applicati
 * Responsive design
 * Online hotel reservation
 
+### Report
+* [Architecture and Software Development - PDF Version](Report.pdf)
+
 ### Screenshoot
 Home           |
 :--------------:|
